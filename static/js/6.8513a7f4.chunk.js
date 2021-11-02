@@ -1,0 +1,2 @@
+(this.webpackJsonpphonebook=this.webpackJsonpphonebook||[]).push([[6],{94:function(e,t,o){"use strict";o.r(t),o.d(t,"default",(function(){return r}));var s=o(2);function r(){return Object(s.jsxs)("div",{className:"home",children:[Object(s.jsx)("h1",{className:"title",children:"This program is designed to store contacts"}),Object(s.jsx)("p",{className:"title",children:"To feel the full power of the program, please register or log in to your account"})]})}}}]);
+//# sourceMappingURL=6.8513a7f4.chunk.js.map
