@@ -1,0 +1,41 @@
+:root {
+  --wrapper-primary-color: rgba(184, 186, 230, 0.8);
+  --wrapper-secondary-color: rgba(255, 255, 255, 0.8);
+  --lighter-blue-title: rgba(191, 205, 243, 0.8);
+  --background-contacts-color: rgba(217, 217, 245, 0.3);
+  --light-btn-color: rgb(166, 166, 192);
+  --lighter-blue-contact: rgba(191, 205, 243, 0.1);
+  --dark-blue-logo-color: rgb(255, 255, 255);
+  --black-blue-logo-color: rgba(255, 255, 255, 0.8);
+  --blue-bg-appbar: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  background: linear-gradient(65deg,
+      var(--wrapper-primary-color),
+      var(--wrapper-secondary-color));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

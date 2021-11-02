@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__logo {
+    margin-left: 100px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 50px;
+    text-shadow: var(--lighter-blue-title) 0px 5px 25px;
+    color: var(--dark-blue-logo-color);
+}
+
+.navigation__name {
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
+    color: var(--black-blue-logo-color);
+}
+
+.navigation__name:hover,
+.navigation__name:focus {
+    color: var(--wrapper-primary-color);
+}
+
+.navigation__name--active {
+    font-size: 36px;
+    text-decoration: none;
+    text-shadow: var(--lighter-blue-title) 0px 5px 25px;
+}
